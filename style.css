@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+}
+
+nav > ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    font-size: 20px;
+}
+nav > ul > li:hover {
+    color: rgb(224, 210, 12);
+    
+}
+
+header {
+    width:100%;
+    height: 700px;
+    background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg);background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    margin-top: -100px;
+    
+}
+
+.bigText {
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color:white;
+    padding-top: 200px;
+}
+
+.bigText > span {
+
+    color: rgb(224, 210, 12);
+    font-size: 200px;
+    margin-top: -60px;
+} 
+
+header > p {
+    color: white;
+    margin-left: 37%;
+    width:400px;
+    text-align:center;
+    font-size: 19px;
+}
+
+.buttons {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    margin-top: 100px;
+    
+}
+.btn1 {
+    width: 250px ;
+    height: 70px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 25px;
+}
+.btn2 {
+    width: 250px ;
+    height: 70px;
+    border: 2px solid rgb(224, 210, 12);
+    background-color: rgb(224, 210, 12);
+    color: white;
+    font-size: 25px;
+}
+.btn1:hover {
+    border: 2px solid rgb(224, 210, 12);
+    background-color: rgb(224, 210, 12);
+    color: white;
+    transition: all 0.5s;
+
+}
+.btn2:hover {
+    border: 2px solid white;
+    background:transparent;
+    color: white;
+    transition: all 0.5s;
+
+}
+
+/* Section 1 */
+
+.section1 {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+
+.textDiv {
+    text-align: center;
+    width: 66.6%;
+    height: 200px;
+    margin-left: 17%;
+    color: #545454;
+}
+
+.textDiv > h1 {
+    font-size: 35px;
+}
+
+
+.Faiz {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+
+.border1{
+    width: 30%;
+    height: 5px;
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.progress1{
+    width: 60%;
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+}
+
+.dot1{
+    background-color: orange;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-left: -1px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.badge1{
+    position: absolute;
+    bottom: 30px;
+    background-color: orange;
+    /* left: -100%; */
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.badge1::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: orange;
+    bottom: -5px;
+    left: 40%;
+    transform: rotate(45deg);
+}
+
+
+.border2{
+    width: 30%;
+    height: 5px;
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.progress2{
+    width: 82%;
+    background-color: #f18b6d;
+    height: 5px;
+}
+
+.dot2{
+    background-color: #f18b6d;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-left: -1px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.badge2{
+    position: absolute;
+    bottom: 30px;
+    background-color: #f18b6d;
+    /* left: -100%; */
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.badge2::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color:#f18b6d;
+    bottom: -5px;
+    left: 40%;
+    transform: rotate(45deg);
+}
+
+.border3{
+    width: 30%;
+    height: 5px;
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.progress3{
+    width: 86%;
+    background-color: #6a4d8a;
+    height: 5px;
+}
+
+.dot3{
+    background-color: #6a4d8a;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-left: -1px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.badge3{
+    position: absolute;
+    bottom: 30px;
+    background-color: #6a4d8a;
+    /* left: -100%; */
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.badge3::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #6a4d8a;
+    bottom: -5px;
+    left: 40%;
+    transform: rotate(45deg);
+}
+
+.faiz2 {
+    margin-left: 530px;
+    width: 100%;
+    margin-top: -5px;
+}
+
+.faiz3 {
+    margin-left: 1050px;
+    width: 100%;
+    margin-right: 0px;
+    margin-top: -7px;
+}
+/* Section 2 */
+.section2 {
+    background-color: white;
+    width: 100%;
+    height: 613px;
+}
+.images {
+
+    display: flex;
+    padding-top: 150px;
+}
+.images > div {
+    width: 25%;
+    height: 400px;
+}
+.images > div > img {
+    width:100%;
+    height: 400px;
+}
+.images > div > img:hover {
+    width:100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+.section2> h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #545454;
+
+}
+
+.section2 > p {
+    text-align: center;
+    color: #545454;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+
+/* SECTION 3 */
+
+.section3 {
+
+    background-image: url('https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/testiomnials-background.jpg');
+    width: 100%;
+    height: 666px;
+}
+.purpimg {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-left: 45%;
+    padding-top: 3%;
+}
+.purpimg > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.purptxt {
+    width: 50%;
+    height: 200px;
+    background-color: rgb(119, 47, 163);
+    margin-left: 25%;
+    margin-top: 100px;
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+   
+}
